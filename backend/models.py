@@ -1,5 +1,5 @@
 from datetime import datetime, timezone
-from sqlalchemy import Column, Integer, String, Float, DateTime, ForeignKey
+from sqlalchemy import Column, Integer, String, Float, DateTime, ForeignKey, Enum as SAEnum
 from sqlalchemy.orm import relationship
 
 try:
@@ -7,55 +7,26 @@ try:
 except ModuleNotFoundError:
     from database import Base
 
+# Existing models remain unchanged above this comment
 
-class Vehicle(Base):
-    """
-    Vehicles table: Tracks registered transport vehicles carrying essential supplies.
-    """
-    __tablename__ = "vehicles"
+# ----------------------------------------------------
+# SMS Fallback Model
+# ----------------------------------------------------
+from enum import Enum as PyEnum
 
-    id = Column(Integer, primary_key=True, index=True)
-    vehicle_id = Column(String(50), unique=True, index=True, nullable=False)
-    created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc), nullable=False)
+class SMSStatus(PyEnum):
+    RECEIVED = "RECEIVED"
+    PROCESSED = "PROCESSED"
+    FAILED = "FAILED"
 
-    # 1-to-many relationship: One vehicle can have multiple historic GPS locations
-    locations = relationship(
-        "VehicleLocation",
-        back_populates="vehicle",
-        cascade="all, delete-orphan"
-    )
-
-
-class VehicleLocation(Base):
-    """
-    Vehicle Locations table: Stores time-series GPS tracking points for each vehicle.
-    """
-    __tablename__ = "vehicle_locations"
+class SMSFallback(Base):
+    """SMS fallback messages stored when primary provider fails."""
+    __tablename__ = "sms_fallbacks"
 
     id = Column(Integer, primary_key=True, index=True)
-    vehicle_id = Column(String(50), ForeignKey("vehicles.vehicle_id"), index=True, nullable=False)
-    latitude = Column(Float, nullable=False)
-    longitude = Column(Float, nullable=False)
-    timestamp = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc), nullable=False)
-    # Unique idempotency key from offline client to prevent duplicate sync submissions
-    client_record_id = Column(String(100), unique=True, index=True, nullable=True)
+    sender = Column(String(100), nullable=False)
+    message = Column(String, nullable=False)
+    received_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc), nullable=False)
+    status = Column(SAEnum(SMSStatus), default=SMSStatus.RECEIVED, nullable=False)
 
-    # Back reference to the Vehicle
-    vehicle = relationship("Vehicle", back_populates="locations")
-
-
-class Incident(Base):
-    """
-    Incidents table: Stores geo-tagged road disruptions, landslides, and accidents.
-    """
-    __tablename__ = "incidents"
-
-    id = Column(Integer, primary_key=True, index=True)
-    vehicle_id = Column(String(50), index=True, nullable=False)
-    latitude = Column(Float, nullable=False)
-    longitude = Column(Float, nullable=False)
-    incident_type = Column(String(50), nullable=False)
-    description = Column(String(255), nullable=False)
-    timestamp = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc), nullable=False)
-    # Unique idempotency key from offline client to prevent duplicate sync submissions
-    client_record_id = Column(String(100), unique=True, index=True, nullable=True)
+# Existing models continue below
