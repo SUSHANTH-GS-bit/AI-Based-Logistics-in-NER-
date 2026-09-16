@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ResQ Byte · Technical Approach Diagrams</title>
+<style>
+  :root { --bg:#0B1220; --panel:#101B2E; --stroke:#22334D; --ink:#E6EDF7; --muted:#93A5BF; --cyan:#22D3EE; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  header { padding: 28px 32px 18px; border-bottom:1px solid var(--stroke); }
+  h1 { margin:0 0 6px; font-size:24px; }
+  p.sub { margin:0; color:var(--muted); font-size:14px; }
+  .wrap { padding: 24px 32px 60px; max-width: 1800px; margin: 0 auto; }
+  .card { background:var(--panel); border:1px solid var(--stroke); border-radius:16px; padding:18px; margin-bottom:28px; }
+  .card h2 { margin:2px 0 4px; font-size:17px; }
+  .card p { margin:0 0 14px; color:var(--muted); font-size:13px; }
+  img { width:100%; height:auto; border-radius:10px; display:block; background:#0B1220; }
+  .links { display:flex; gap:12px; flex-wrap:wrap; margin-top:12px; }
+  a.btn { font-size:12.5px; color:var(--cyan); border:1px solid #27405F; border-radius:20px;
+          padding:6px 14px; text-decoration:none; }
+  a.btn:hover { background:#14243C; }
+  code { background:#16233A; padding:2px 6px; border-radius:6px; font-size:12.5px; color:#B9C8DE; }
+</style>
+</head>
+<body>
+<header>
+  <h1>ResQ Byte · Technical Approach Diagrams</h1>
+  <p class="sub">AI-Based Smart Logistics &amp; Accessibility Intelligence for the North Eastern Region (SIH26002) — diagrams generated from the repository source.</p>
+</header>
+<div class="wrap">
+
+  <div class="card">
+    <h2>1 · System Architecture</h2>
+    <p>Six layers, data sources → data engineering → AI/ML → backend API → React frontend → users, with the concrete technology in each layer.</p>
+    <img src="01-system-architecture.svg" alt="System architecture diagram" />
+    <div class="links">
+      <a class="btn" href="01-system-architecture.svg" target="_blank">Open SVG (zoomable)</a>
+      <a class="btn" href="01-system-architecture.png" target="_blank">Open PNG</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>2 · Technical Approaches</h2>
+    <p>The six engineering methods the repo actually implements, plus the physics-informed risk-score formula that all of them share.</p>
+    <img src="02-technical-approaches.svg" alt="Technical approaches diagram" />
+    <div class="links">
+      <a class="btn" href="02-technical-approaches.svg" target="_blank">Open SVG (zoomable)</a>
+      <a class="btn" href="02-technical-approaches.png" target="_blank">Open PNG</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Regenerate / edit</h2>
+    <p>Both diagrams are produced by <code>docs/diagrams/make_diagrams.py</code> — edit the text or boxes there and re-run:</p>
+    <p><code>python3 docs/diagrams/make_diagrams.py</code></p>
+  </div>
+
+</div>
+</body>
+</html>
