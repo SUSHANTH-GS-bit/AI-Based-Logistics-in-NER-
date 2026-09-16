@@ -5,6 +5,7 @@ repository source by `make_diagrams.py` — no external diagram tool is required
 
 | File | What it shows |
 |---|---|
+| `03-simple-overview.svg` / `.png` | **Start here** — plain-language one-pager: DATA → BUILD → TRAIN → SERVE → SHOW → USE, plus the six ideas and headline numbers |
 | `01-system-architecture.svg` / `.png` | End-to-end architecture: data sources → data engineering → AI/ML → FastAPI/PostGIS backend → React + Leaflet frontend → users |
 | `02-technical-approaches.svg` / `.png` | The six technical approaches used, each with its implementation detail and measured result, plus the shared risk-score formula |
 | `index.html` | Gallery view (open in a browser, or serve the folder) |

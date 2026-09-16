@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1012" viewBox="0 0 1700 1012">
+<rect width="1700" height="1012" fill="#0B1220"/>
+<text x="40" y="62" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" fill="#E6EDF7" text-anchor="start" opacity="1.0" letter-spacing="0">How ResQ Byte Works</text>
+<text x="40" y="92" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" fill="#93A5BF" text-anchor="start" opacity="1.0" letter-spacing="0">AI-based logistics and accessibility platform for North East India — explained simply</text>
+<rect x="40.0" y="132" width="248.33333333333334" height="236" rx="18" fill="#101B2E" stroke="#22334D" stroke-width="1.2" opacity="1.0"/>
+<rect x="40.0" y="132" width="248.33333333333334" height="6" rx="3" fill="#22D3EE"/>
+<circle cx="164.16666666666669" cy="184" r="24" fill="#22D3EE" opacity="0.16"/>
+<circle cx="164.16666666666669" cy="184" r="24" fill="none" stroke="#22D3EE" stroke-width="1.5"/>
+<text x="164.16666666666669" y="192" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#22D3EE" text-anchor="middle" opacity="1.0" letter-spacing="0">1</text>
+<text x="164.16666666666669" y="242" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#E6EDF7" text-anchor="middle" opacity="1.0" letter-spacing="0">DATA</text>
+<text x="164.16666666666669" y="278" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">Real North-East map, plus</text>
+<text x="164.16666666666669" y="302" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">rainfall, roads, landslide</text>
+<text x="164.16666666666669" y="326" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">and road-closure records</text>
+<path d="M291.33333333333337,242.0 L307.33333333333337,250.0 L291.33333333333337,258.0 Z" fill="#22D3EE" opacity="0.6"/>
+<rect x="314.33333333333337" y="132" width="248.33333333333334" height="236" rx="18" fill="#101B2E" stroke="#22334D" stroke-width="1.2" opacity="1.0"/>
+<rect x="314.33333333333337" y="132" width="248.33333333333334" height="6" rx="3" fill="#3B82F6"/>
+<circle cx="438.50000000000006" cy="184" r="24" fill="#3B82F6" opacity="0.16"/>
+<circle cx="438.50000000000006" cy="184" r="24" fill="none" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="438.50000000000006" y="192" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#3B82F6" text-anchor="middle" opacity="1.0" letter-spacing="0">2</text>
+<text x="438.50000000000006" y="242" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#E6EDF7" text-anchor="middle" opacity="1.0" letter-spacing="0">BUILD</text>
+<text x="438.50000000000006" y="278" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">Python scripts generate</text>
+<text x="438.50000000000006" y="302" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">one consistent dataset</text>
+<text x="438.50000000000006" y="326" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">(reproducible, seeded)</text>
+<path d="M565.6666666666667,242.0 L581.6666666666667,250.0 L565.6666666666667,258.0 Z" fill="#3B82F6" opacity="0.6"/>
+<rect x="588.6666666666667" y="132" width="248.33333333333334" height="236" rx="18" fill="#101B2E" stroke="#22334D" stroke-width="1.2" opacity="1.0"/>
+<rect x="588.6666666666667" y="132" width="248.33333333333334" height="6" rx="3" fill="#A855F7"/>
+<circle cx="712.8333333333334" cy="184" r="24" fill="#A855F7" opacity="0.16"/>
+<circle cx="712.8333333333334" cy="184" r="24" fill="none" stroke="#A855F7" stroke-width="1.5"/>
+<text x="712.8333333333334" y="192" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#A855F7" text-anchor="middle" opacity="1.0" letter-spacing="0">3</text>
+<text x="712.8333333333334" y="242" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#E6EDF7" text-anchor="middle" opacity="1.0" letter-spacing="0">TRAIN</text>
+<text x="712.8333333333334" y="278" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">Machine learning learns</text>
+<text x="712.8333333333334" y="302" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">landslide risk and how</text>
+<text x="712.8333333333334" y="326" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">long a road stays blocked</text>
+<path d="M840.0000000000001,242.0 L856.0000000000001,250.0 L840.0000000000001,258.0 Z" fill="#A855F7" opacity="0.6"/>
+<rect x="863.0000000000001" y="132" width="248.33333333333334" height="236" rx="18" fill="#101B2E" stroke="#22334D" stroke-width="1.2" opacity="1.0"/>
+<rect x="863.0000000000001" y="132" width="248.33333333333334" height="6" rx="3" fill="#10B981"/>
+<circle cx="987.1666666666667" cy="184" r="24" fill="#10B981" opacity="0.16"/>
+<circle cx="987.1666666666667" cy="184" r="24" fill="none" stroke="#10B981" stroke-width="1.5"/>
+<text x="987.1666666666667" y="192" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#10B981" text-anchor="middle" opacity="1.0" letter-spacing="0">4</text>
+<text x="987.1666666666667" y="242" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#E6EDF7" text-anchor="middle" opacity="1.0" letter-spacing="0">SERVE</text>
+<text x="987.1666666666667" y="278" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">FastAPI + PostgreSQL /</text>
+<text x="987.1666666666667" y="302" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">PostGIS answer requests</text>
+<text x="987.1666666666667" y="326" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">from the app</text>
+<path d="M1114.3333333333335,242.0 L1130.3333333333335,250.0 L1114.3333333333335,258.0 Z" fill="#10B981" opacity="0.6"/>
+<rect x="1137.3333333333335" y="132" width="248.33333333333334" height="236" rx="18" fill="#101B2E" stroke="#22334D" stroke-width="1.2" opacity="1.0"/>
+<rect x="1137.3333333333335" y="132" width="248.33333333333334" height="6" rx="3" fill="#F59E0B"/>
+<circle cx="1261.5000000000002" cy="184" r="24" fill="#F59E0B" opacity="0.16"/>
+<circle cx="1261.5000000000002" cy="184" r="24" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="1261.5000000000002" y="192" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#F59E0B" text-anchor="middle" opacity="1.0" letter-spacing="0">5</text>
+<text x="1261.5000000000002" y="242" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#E6EDF7" text-anchor="middle" opacity="1.0" letter-spacing="0">SHOW</text>
+<text x="1261.5000000000002" y="278" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">React dashboard with</text>
+<text x="1261.5000000000002" y="302" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">live maps, vehicles,</text>
+<text x="1261.5000000000002" y="326" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">incidents and alerts</text>
+<path d="M1388.6666666666667,242.0 L1404.6666666666667,250.0 L1388.6666666666667,258.0 Z" fill="#F59E0B" opacity="0.6"/>
+<rect x="1411.666666666667" y="132" width="248.33333333333334" height="236" rx="18" fill="#101B2E" stroke="#22334D" stroke-width="1.2" opacity="1.0"/>
+<rect x="1411.666666666667" y="132" width="248.33333333333334" height="6" rx="3" fill="#EC4899"/>
+<circle cx="1535.8333333333337" cy="184" r="24" fill="#EC4899" opacity="0.16"/>
+<circle cx="1535.8333333333337" cy="184" r="24" fill="none" stroke="#EC4899" stroke-width="1.5"/>
+<text x="1535.8333333333337" y="192" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#EC4899" text-anchor="middle" opacity="1.0" letter-spacing="0">6</text>
+<text x="1535.8333333333337" y="242" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#E6EDF7" text-anchor="middle" opacity="1.0" letter-spacing="0">USE</text>
+<text x="1535.8333333333337" y="278" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">Drivers, control room</text>
+<text x="1535.8333333333337" y="302" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">and planners choose</text>
+<text x="1535.8333333333337" y="326" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">safer routes and act fast</text>
+<text x="40" y="414" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="bold" fill="#E6EDF7" text-anchor="start" opacity="1.0" letter-spacing="0">Six simple ideas behind it</text>
+<text x="40" y="440" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="start" opacity="1.0" letter-spacing="0">Each one is a real technique in the code — no jargon needed.</text>
+<rect x="40.0" y="460" width="795.0" height="108" rx="14" fill="#0E1729" stroke="#1B2A42" stroke-width="1.2" opacity="1.0"/>
+<rect x="40.0" y="460" width="6" height="108" rx="3" fill="#22D3EE"/>
+<circle cx="84.0" cy="514" r="15" fill="#22D3EE" opacity="0.18"/>
+<text x="84.0" y="520" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#22D3EE" text-anchor="middle" opacity="1.0" letter-spacing="0">1</text>
+<text x="114.0" y="505" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#E6EDF7" text-anchor="start" opacity="1.0" letter-spacing="0">Physics-based dataset</text>
+<text x="114.0" y="534" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="start" opacity="1.0" letter-spacing="0">One risk formula creates the data, trains the model and powers the API, so all three always agree.</text>
+<rect x="865.0" y="460" width="795.0" height="108" rx="14" fill="#0E1729" stroke="#1B2A42" stroke-width="1.2" opacity="1.0"/>
+<rect x="865.0" y="460" width="6" height="108" rx="3" fill="#A855F7"/>
+<circle cx="909.0" cy="514" r="15" fill="#A855F7" opacity="0.18"/>
+<text x="909.0" y="520" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#A855F7" text-anchor="middle" opacity="1.0" letter-spacing="0">2</text>
+<text x="939.0" y="505" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#E6EDF7" text-anchor="start" opacity="1.0" letter-spacing="0">Two AI models</text>
+<text x="939.0" y="534" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="start" opacity="1.0" letter-spacing="0">Random Forest models predict landslide risk (91.7% accurate) and how long a closure will last (R² 0.87).</text>
+<rect x="40.0" y="586" width="795.0" height="108" rx="14" fill="#0E1729" stroke="#1B2A42" stroke-width="1.2" opacity="1.0"/>
+<rect x="40.0" y="586" width="6" height="108" rx="3" fill="#10B981"/>
+<circle cx="84.0" cy="640" r="15" fill="#10B981" opacity="0.18"/>
+<text x="84.0" y="646" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#10B981" text-anchor="middle" opacity="1.0" letter-spacing="0">3</text>
+<text x="114.0" y="631" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#E6EDF7" text-anchor="start" opacity="1.0" letter-spacing="0">Real, connected road map</text>
+<text x="114.0" y="660" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="start" opacity="1.0" letter-spacing="0">71 highway segments across 19 corridors, joined into a single connected network stored in PostGIS.</text>
+<rect x="865.0" y="586" width="795.0" height="108" rx="14" fill="#0E1729" stroke="#1B2A42" stroke-width="1.2" opacity="1.0"/>
+<rect x="865.0" y="586" width="6" height="108" rx="3" fill="#3B82F6"/>
+<circle cx="909.0" cy="640" r="15" fill="#3B82F6" opacity="0.18"/>
+<text x="909.0" y="646" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#3B82F6" text-anchor="middle" opacity="1.0" letter-spacing="0">4</text>
+<text x="939.0" y="631" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#E6EDF7" text-anchor="start" opacity="1.0" letter-spacing="0">Risk-aware routing</text>
+<text x="939.0" y="660" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="start" opacity="1.0" letter-spacing="0">Routes automatically avoid blocked or high-risk roads instead of just showing the shortest path.</text>
+<rect x="40.0" y="712" width="795.0" height="108" rx="14" fill="#0E1729" stroke="#1B2A42" stroke-width="1.2" opacity="1.0"/>
+<rect x="40.0" y="712" width="6" height="108" rx="3" fill="#F59E0B"/>
+<circle cx="84.0" cy="766" r="15" fill="#F59E0B" opacity="0.18"/>
+<text x="84.0" y="772" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#F59E0B" text-anchor="middle" opacity="1.0" letter-spacing="0">5</text>
+<text x="114.0" y="757" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#E6EDF7" text-anchor="start" opacity="1.0" letter-spacing="0">Plug-in modules</text>
+<text x="114.0" y="786" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="start" opacity="1.0" letter-spacing="0">Machine-learning and GIS engines snap in later without changing the API, so teams can build in parallel.</text>
+<rect x="865.0" y="712" width="795.0" height="108" rx="14" fill="#0E1729" stroke="#1B2A42" stroke-width="1.2" opacity="1.0"/>
+<rect x="865.0" y="712" width="6" height="108" rx="3" fill="#EF4444"/>
+<circle cx="909.0" cy="766" r="15" fill="#EF4444" opacity="0.18"/>
+<text x="909.0" y="772" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#EF4444" text-anchor="middle" opacity="1.0" letter-spacing="0">6</text>
+<text x="939.0" y="757" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#E6EDF7" text-anchor="start" opacity="1.0" letter-spacing="0">Works offline</text>
+<text x="939.0" y="786" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#93A5BF" text-anchor="start" opacity="1.0" letter-spacing="0">Field reports save on the device and sync automatically when the network returns — no duplicates.</text>
+<rect x="40" y="852" width="1620" height="96" rx="16" fill="#0F1B2D" stroke="#1B2A42" stroke-width="1.2" opacity="1.0"/>
+<text x="155.71428571428572" y="898" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#22D3EE" text-anchor="middle" opacity="1.0" letter-spacing="0">8,520</text>
+<text x="155.71428571428572" y="924" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">training rows</text>
+<text x="387.14285714285717" y="898" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#22D3EE" text-anchor="middle" opacity="1.0" letter-spacing="0">2,303</text>
+<text x="387.14285714285717" y="924" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">closure records</text>
+<line x1="271.42857142857144" y1="874" x2="271.42857142857144" y2="926" stroke="#22334D" stroke-width="1"/>
+<text x="618.5714285714286" y="898" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#10B981" text-anchor="middle" opacity="1.0" letter-spacing="0">71</text>
+<text x="618.5714285714286" y="924" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">road segments</text>
+<line x1="502.85714285714283" y1="874" x2="502.85714285714283" y2="926" stroke="#22334D" stroke-width="1"/>
+<text x="849.9999999999999" y="898" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#10B981" text-anchor="middle" opacity="1.0" letter-spacing="0">50</text>
+<text x="849.9999999999999" y="924" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">districts</text>
+<line x1="734.2857142857142" y1="874" x2="734.2857142857142" y2="926" stroke="#22334D" stroke-width="1"/>
+<text x="1081.4285714285713" y="898" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#A855F7" text-anchor="middle" opacity="1.0" letter-spacing="0">91.7%</text>
+<text x="1081.4285714285713" y="924" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">risk accuracy</text>
+<line x1="965.7142857142857" y1="874" x2="965.7142857142857" y2="926" stroke="#22334D" stroke-width="1"/>
+<text x="1312.857142857143" y="898" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#A855F7" text-anchor="middle" opacity="1.0" letter-spacing="0">R² 0.870</text>
+<text x="1312.857142857143" y="924" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">duration model</text>
+<line x1="1197.142857142857" y1="874" x2="1197.142857142857" y2="926" stroke="#22334D" stroke-width="1"/>
+<text x="1544.2857142857142" y="898" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#F59E0B" text-anchor="middle" opacity="1.0" letter-spacing="0">39</text>
+<text x="1544.2857142857142" y="924" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#93A5BF" text-anchor="middle" opacity="1.0" letter-spacing="0">API endpoints</text>
+<line x1="1428.5714285714284" y1="874" x2="1428.5714285714284" y2="926" stroke="#22334D" stroke-width="1"/>
+<text x="40" y="988" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7F9C" text-anchor="start" opacity="1.0" letter-spacing="0">ResQ Byte · AI-Based-Logistics-in-NER · generated by docs/diagrams/make_diagrams.py</text>
+</svg>

@@ -459,10 +459,114 @@ def build_approaches():
     return _finish(svg, W, H)
 
 
+
+
+# ================================================================ DIAGRAM 3
+def build_simple():
+    """One-page, plain-language overview: what the platform does and why."""
+    W, M = 1700, 40
+    H = 1012
+
+    svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
+           f'<rect width="{W}" height="{H}" fill="{BG}"/>']
+
+    def centre(cx, y, s, size=14, fill=MUTED, weight="normal"):
+        return txt(cx, y, s, size=size, fill=fill, weight=weight, anchor="middle")
+
+    # ---------------------------------------------------------------- header
+    svg.append(txt(M, 62, "How ResQ Byte Works", size=32, weight="bold", fill=INK))
+    svg.append(txt(M, 92, "AI-based logistics and accessibility platform for North East India — explained simply",
+                   size=15, fill=MUTED))
+
+    # ---------------------------------------------------------------- flow row
+    steps = [
+        ("1", "DATA", ["Real North-East map, plus", "rainfall, roads, landslide", "and road-closure records"], CYAN),
+        ("2", "BUILD", ["Python scripts generate", "one consistent dataset", "(reproducible, seeded)"], BLUE),
+        ("3", "TRAIN", ["Machine learning learns", "landslide risk and how", "long a road stays blocked"], PURPLE),
+        ("4", "SERVE", ["FastAPI + PostgreSQL /", "PostGIS answer requests", "from the app"], GREEN),
+        ("5", "SHOW", ["React dashboard with", "live maps, vehicles,", "incidents and alerts"], AMBER),
+        ("6", "USE", ["Drivers, control room", "and planners choose", "safer routes and act fast"], PINK),
+    ]
+    gap = 26
+    bw = (W - 2 * M - (len(steps) - 1) * gap) / len(steps)
+    by, bh = 132, 236
+
+    for i, (num, title, lines, col) in enumerate(steps):
+        x = M + i * (bw + gap)
+        svg.append(rect(x, by, bw, bh, fill=PANEL, stroke=STROKE, rx=18))
+        svg.append(f'<rect x="{x}" y="{by}" width="{bw}" height="6" rx="3" fill="{col}"/>')
+        cx = x + bw / 2
+        svg.append(f'<circle cx="{cx}" cy="{by + 52}" r="24" fill="{col}" opacity="0.16"/>')
+        svg.append(f'<circle cx="{cx}" cy="{by + 52}" r="24" fill="none" stroke="{col}" stroke-width="1.5"/>')
+        svg.append(centre(cx, by + 60, num, size=21, fill=col, weight="bold"))
+        svg.append(centre(cx, by + 110, title, size=21, fill=INK, weight="bold"))
+        for j, ln in enumerate(lines):
+            svg.append(centre(cx, by + 146 + j * 24, ln, size=14, fill=MUTED))
+        if i < len(steps) - 1:
+            ax = x + bw + gap / 2
+            svg.append(f'<path d="M{ax - 10},{by + bh / 2 - 8} L{ax + 6},{by + bh / 2} L{ax - 10},{by + bh / 2 + 8} Z" '
+                       f'fill="{col}" opacity="0.6"/>')
+
+    # ---------------------------------------------------------------- six ideas
+    iy = by + bh + 46
+    svg.append(txt(M, iy, "Six simple ideas behind it", size=23, weight="bold", fill=INK))
+    svg.append(txt(M, iy + 26, "Each one is a real technique in the code — no jargon needed.",
+                   size=14, fill=MUTED))
+
+    ideas = [
+        (CYAN, "Physics-based dataset",
+         "One risk formula creates the data, trains the model and powers the API, so all three always agree."),
+        (PURPLE, "Two AI models",
+         "Random Forest models predict landslide risk (91.7% accurate) and how long a closure will last (R² 0.87)."),
+        (GREEN, "Real, connected road map",
+         "71 highway segments across 19 corridors, joined into a single connected network stored in PostGIS."),
+        (BLUE, "Risk-aware routing",
+         "Routes automatically avoid blocked or high-risk roads instead of just showing the shortest path."),
+        (AMBER, "Plug-in modules",
+         "Machine-learning and GIS engines snap in later without changing the API, so teams can build in parallel."),
+        (RED, "Works offline",
+         "Field reports save on the device and sync automatically when the network returns — no duplicates."),
+    ]
+    cg, cw2 = 30, (W - 2 * M - 30) / 2
+    chh, top2 = 108, iy + 46
+
+    for i, (col, title, body) in enumerate(ideas):
+        cx = M + (i % 2) * (cw2 + cg)
+        cy = top2 + (i // 2) * (chh + 18)
+        svg.append(rect(cx, cy, cw2, chh, fill=PANEL2, stroke="#1B2A42", rx=14))
+        svg.append(f'<rect x="{cx}" y="{cy}" width="6" height="{chh}" rx="3" fill="{col}"/>')
+        svg.append(f'<circle cx="{cx + 44}" cy="{cy + 54}" r="15" fill="{col}" opacity="0.18"/>')
+        svg.append(txt(cx + 44, cy + 60, str(i + 1), size=15, weight="bold", fill=col, anchor="middle"))
+        svg.append(txt(cx + 74, cy + 45, title, size=19, weight="bold", fill=INK))
+        svg.append(txt(cx + 74, cy + 74, body, size=14, fill=MUTED))
+
+    # ---------------------------------------------------------------- numbers
+    ny = top2 + 3 * (chh + 18) + 14
+    svg.append(rect(M, ny, W - 2 * M, 96, fill="#0F1B2D", stroke="#1B2A42", rx=16))
+    stats = [("8,520", "training rows", CYAN), ("2,303", "closure records", CYAN),
+             ("71", "road segments", GREEN), ("50", "districts", GREEN),
+             ("91.7%", "risk accuracy", PURPLE), ("R² 0.870", "duration model", PURPLE),
+             ("39", "API endpoints", AMBER)]
+    sw = (W - 2 * M) / len(stats)
+    for i, (big, small, col) in enumerate(stats):
+        cx = M + i * sw + sw / 2
+        svg.append(txt(cx, ny + 46, big, size=26, weight="bold", fill=col, anchor="middle"))
+        svg.append(txt(cx, ny + 72, small, size=13, fill=MUTED, anchor="middle"))
+        if i:
+            svg.append(f'<line x1="{M + i * sw}" y1="{ny + 22}" x2="{M + i * sw}" y2="{ny + 74}" '
+                       f'stroke="{STROKE}" stroke-width="1"/>')
+
+    svg.append(txt(M, H - 24, "ResQ Byte · AI-Based-Logistics-in-NER · generated by docs/diagrams/make_diagrams.py",
+                   size=12, fill=DIM))
+    svg.append("</svg>")
+    return "\n".join(svg)
+
+
 if __name__ == "__main__":
     files = {
         "01-system-architecture.svg": build_architecture(),
         "02-technical-approaches.svg": build_approaches(),
+        "03-simple-overview.svg": build_simple(),
     }
     for name, content in files.items():
         path = os.path.join(OUT, name)
