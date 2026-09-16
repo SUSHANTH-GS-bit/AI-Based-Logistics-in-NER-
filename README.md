@@ -1,0 +1,3 @@
+ResQ Byte
+
+ResQ Byte is an AI-powered Smart Logistics and Accessibility Intelligence Platform designed for the North Eastern Region (NER) of India. It combines GIS, GPS tracking, Machine Learning, and real-time incident data to support safer route planning, vehicle monitoring, risk prediction, and accessibility to essential facilities such as hospitals, warehouses, fuel stations, bridges, and settlements. The platform also supports offline GPS tracking and automatic data synchronization for areas with limited connectivity.
