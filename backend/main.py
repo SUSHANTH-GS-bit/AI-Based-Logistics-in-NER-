@@ -19,12 +19,14 @@ try:
     from backend.ml_service import ml_service
     from backend.gis_router import router as gis_router
     from backend.sync_router import router as sync_router
+    from backend.chat_router import router as chat_router
 except ModuleNotFoundError:
     from database import get_db, check_db_connection, init_db
     import models
     from ml_service import ml_service
     from gis_router import router as gis_router
     from sync_router import router as sync_router
+    from chat_router import router as chat_router
 
 # Helper to safely parse ISO timestamp strings or generate current UTC
 def parse_timestamp(val: Optional[str]) -> datetime:
@@ -69,6 +71,7 @@ app.add_middleware(
 # Register APIRouters
 app.include_router(gis_router)
 app.include_router(sync_router)
+app.include_router(chat_router)
 
 
 # ----------------------------------------------------

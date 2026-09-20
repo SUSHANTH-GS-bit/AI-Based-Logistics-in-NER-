@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { AppProvider } from './context/AppContext';
 import { MainLayout } from './components/layout/MainLayout';
+import { Chatbot } from './components/chatbot/Chatbot';
 
 // Public Pages
 import { LandingPage } from './pages/Landing/LandingPage';
@@ -98,6 +99,7 @@ export function App() {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </BrowserRouter>
+        <Chatbot />
       </AppProvider>
     </AuthProvider>
   );
